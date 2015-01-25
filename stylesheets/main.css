@@ -394,4 +394,10 @@ header .header-right {
     .pv_count .tweets {
         border-bottom: 4px solid #98adc1;
     }
+    .blog {
+        width: 74%;
+    }
+    .pic img {
+        left: 30px;
+    }
 }
