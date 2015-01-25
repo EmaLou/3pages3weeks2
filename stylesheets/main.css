@@ -80,7 +80,7 @@ header .header-right {
 .search input {
     background: transparent;
     border: none;
-    font-size: 14px;
+    font-size: 13px;
     margin: 5px 0 0 10px;
 }
 
@@ -138,9 +138,11 @@ header .header-right {
     margin: 0 10px 0 10px;
     padding: 0 12px 0 10px;
     font-size: 13px;
+    color: #f2f6f9;
+    line-height: 18px;
 }
 .link {
-    color: white;
+    color: #f2f6f9;
     text-decoration: none;
     font-size: 13px;
 }
@@ -192,27 +194,32 @@ header .header-right {
     width: 100%;
 }
 .twitter-pic {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
     float: left;
     display: inline-block;
-    margin: 20px;
+    margin: 20px 13px 20px 20px;
 }
 .blog {
     display: inline-block;
     float: left;
-    margin: 27px 0 30px 0;
-    width: 85%;
+    margin: 27px 8px 30px 0;
+    width: 80%;
 }
 .blog .name {
     float: left;
 }
 .blog .notice {
     float: left;
+    color: #c3beae;
+    margin-left: 3px;
+    font-size: 14px;
 }
 .blog .time {
     float: right;
+    color: #c3beae;
+    font-size: 14px;
 }
 .blog .content {
     clear: both;
@@ -220,6 +227,8 @@ header .header-right {
     display: inline-block;
     text-align: left;
     line-height: 20px;
+    color: #767671;
+    font-size: 14px;
 }
 .blog .footer {
     text-align: left;
@@ -251,7 +260,7 @@ header .header-right {
 }
 .follower {
     height: 60px;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 .follower-list p {
     display: inline-block;
@@ -265,25 +274,124 @@ header .header-right {
     margin: -7px 14px 0 20px;
 }
 .follower-list label{
-    font-size: 14px;
+    font-size: 13px;
 }
 .job {
     display: inline-block;
-    margin: 8px 0 5px 0;
+    margin: 6px 0 5px 0;
+    color: #c3beae;
 }
 .add-icon {
     position: relative;
     float: right;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     border: solid 1px #e4e0da;
     bottom: 19px;
 }
 
 .add-icon .fa-plus{
     color: #c6c1b1;
-    left: 5px;
+    left: 4px;
     position: relative;
     font-size: 13px;
-    top: 2px;
+    top: 1px;
+    color: #9e9c96;
+}
+.pv_count .title {
+    margin-top: 22px;
+    margin-bottom: 0;
+    display: inline-block;
+    color: #cdc8ba;
+    font-size: 13px;
+}
+.pv_count .number {
+    margin-top: 5px;
+    color: #45433c;
+}
+.follower .name {
+    color: #767671;
+}
+.blog .header .fa-refresh {
+    float: left;
+    color: #d2dfbd;
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 640px) {
+   .container .right {
+       position: absolute;
+       left: 0;
+       top: 703px;
+       width: 240px;
+   }
+    .container .right .header{
+        display: none;
+    }
+    .container .left {
+        width: 240px;
+    }
+    .container .center {
+        right: 0;
+        left: 240px;
+        padding: 30px 0 0 30px;
+    }
+    header .header-center {
+        width: 35%;
+    }
+    .pic-wall img {
+        width: 80px;
+        height: 80px;
+    }
+    .left .follow-btn {
+        margin-left: 60px;
+    }
+    .blog {
+        width: 77%;
+    }
+    .follower-list .more{
+        margin-left: 19px;
+    }
+    .follower-list {
+        margin: 20px 30px 20px 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container .left,.container .right {
+        display: none;
+    }
+    .container .center {
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+    header .header-center {
+        margin-top: 8px;
+    }
+    .header-center .icon {
+        display: none;
+    }
+    .header-right .search {
+        display: none;
+    }
+    header .header-right {
+        width: auto;
+        float: none;
+        margin-right:  10px;
+    }
+    .center {
+        margin-top: 30px;
+    }
+    .twitter-icon {
+        left: 30px;
+    }
+    .center .pv_count {
+        height: auto;
+    }
+    .pv_count div {
+        width: 100%;
+    }
+    .pv_count .tweets {
+        border-bottom: 4px solid #98adc1;
+    }
 }
