@@ -1,0 +1,289 @@
+html,.container{
+    height: 100%;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #f2eee8 ;
+}
+header{
+    background-color: #fffbf5;
+    height: 60px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 16px;
+    display: inline-block;
+}
+.header-left .icon {
+    background-color: #81a8ca;
+    margin: 15px 0 0 15px;
+    color: #fffbf5;
+}
+header .header-left {
+    height: 60px;
+    width: 60px;
+    border-right: solid 1px #e4e0da;
+    float: left;
+}
+.header-left span {
+    left: 8px;
+    position: relative;
+    top: 7px;
+}
+.header-center span {
+    position: relative;
+    top: 7px;
+    color: #605e58;
+}
+header .header-center {
+    float: left;
+    width: 70%;
+    text-align: center;
+    margin-top: 15px;
+}
+header .header-right {
+    float: right;
+    width: 260px;
+}
+
+.header-center .icon {
+    float: left;
+    border: solid 1px #e4e0da;
+    margin: 0 10px 0 10px;
+}
+.twitter-icon {
+    position: relative;
+    left: 80px;
+}
+
+.twitter-icon span {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    color: #81a8ca;
+}
+
+.search {
+    display: inline-block;
+    border: solid 1px #e4e0da;
+    width: 150px;
+    border-radius: 20px;
+    height: 28px;
+    position: relative;
+    left: 40px;
+    top: 16px;
+    color: #e4e0da;
+}
+.search input {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    margin: 5px 0 0 10px;
+}
+
+.search .fa-search {
+    position: relative;
+    bottom: 17px;
+    left: 126px;
+}
+
+.pic img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    left: 50px;
+    top: 8px;
+}
+
+.container .left {
+    float: left;
+    width: 270px;
+    height: 100%;
+    background-color: #81a8ca ;
+    text-align: center;
+    color: #ffffff;
+}
+.container .center {
+    height: 100%;
+    position: absolute;
+    left: 270px;
+    top: 60px;
+    right: 270px;
+    bottom: 0;
+    padding: 30px 30px 0 30px;
+    text-align: center;
+}
+.container .right {
+    width: 270px;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 62px;
+    right: 0;
+    background-color: #fffbf5;
+}
+
+.left .photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin-top: 50px;
+}
+
+.container .describe {
+    margin: 0 10px 0 10px;
+    padding: 0 12px 0 10px;
+    font-size: 13px;
+}
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.left .blog-url {
+    display: inline-block;
+    margin: 30px 0 20px 0;
+}
+.left .follow-btn {
+    background-color: #6D94B6;
+    display: block;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 75px;
+}
+.follow-btn .link{
+    position: relative;
+    top: 7px;
+}
+.pic-wall {
+    margin-top: 30px;
+}
+.pic-wall img{
+    float: left;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.left .activity {
+    display: inline-block;
+    margin-top: 20px;
+}
+.center .pv_count {
+    display: inline-block;
+    background-color: #fffbf5 ;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 30px;
+}
+.pv_count div {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+.center .main-content {
+    display: inline-block;
+    background-color: #fffbf5;
+    height: auto;
+    width: 100%;
+}
+.twitter-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    float: left;
+    display: inline-block;
+    margin: 20px;
+}
+.blog {
+    display: inline-block;
+    float: left;
+    margin: 27px 0 30px 0;
+    width: 85%;
+}
+.blog .name {
+    float: left;
+}
+.blog .notice {
+    float: left;
+}
+.blog .time {
+    float: right;
+}
+.blog .content {
+    clear: both;
+    margin: 12px 0 12px 0;
+    display: inline-block;
+    text-align: left;
+    line-height: 20px;
+}
+.blog .footer {
+    text-align: left;
+    color: #c6c1b1;
+}
+.blog .footer label {
+    font-size: 14px;
+}
+.blog .footer span {
+    margin: 0 5px 0 5px ;
+}
+.footer .fa-resize {
+    float: right;
+}
+.right .link {
+    color: #81a8ca;
+    display: block;
+    margin: 5px 0 0 25px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.right p {
+    margin: 30px 0 20px 25px;
+    font-size: 15px;
+    color: #86847f;
+}
+.follower-list {
+    margin: 20px 40px 20px 0;
+}
+.follower {
+    height: 60px;
+    margin-top: 10px;
+}
+.follower-list p {
+    display: inline-block;
+}
+.follower-list .more {
+    margin-left: 39px;
+    color: #81a8ca;
+    font-size: 14px;
+}
+.follower-list .twitter-pic {
+    margin: -7px 14px 0 20px;
+}
+.follower-list label{
+    font-size: 14px;
+}
+.job {
+    display: inline-block;
+    margin: 8px 0 5px 0;
+}
+.add-icon {
+    position: relative;
+    float: right;
+    width: 18px;
+    height: 18px;
+    border: solid 1px #e4e0da;
+    bottom: 19px;
+}
+
+.add-icon .fa-plus{
+    color: #c6c1b1;
+    left: 5px;
+    position: relative;
+    font-size: 13px;
+    top: 2px;
+}
