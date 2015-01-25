@@ -367,6 +367,7 @@ header .header-right {
     }
     header .header-center {
         margin-top: 8px;
+        width: 68%;
     }
     .header-center .icon {
         display: none;
@@ -399,5 +400,11 @@ header .header-right {
     }
     .pic img {
         left: 30px;
+    }
+    .twitter-icon {
+        left: 0;
+    }
+    .pic img {
+        left: 0;
     }
 }
