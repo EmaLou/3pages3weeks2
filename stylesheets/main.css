@@ -317,6 +317,11 @@ header .header-right {
     color: #d2dfbd;
     margin-right: 3px;
 }
+.blog video {
+    margin: 10px 0 10px 0;
+    width: 100%;
+    height: auto;
+}
 
 @media screen and (max-width: 1024px) and (min-width: 640px) {
    .container .right {
