@@ -8,8 +8,12 @@ body {
     background-color: #f2eee8 ;
 }
 header{
+    position: fixed;
+    width: 100%;
     background-color: #fffbf5;
     height: 60px;
+    border-bottom: 4px solid #F2EEE8;
+    z-index: 2;
 }
 .icon {
     width: 30px;
@@ -100,14 +104,17 @@ header .header-right {
 }
 
 .container .left {
+    position: fixed;
     float: left;
     width: 270px;
     height: 100%;
     background-color: #81a8ca ;
     text-align: center;
     color: #ffffff;
+    top: 62px;
 }
 .container .center {
+    overflow: scroll;
     height: 100%;
     position: absolute;
     left: 270px;
@@ -121,7 +128,7 @@ header .header-right {
     width: 270px;
     height: 100%;
     float: right;
-    position: absolute;
+    position: fixed;
     top: 62px;
     right: 0;
     background-color: #fffbf5;
@@ -222,6 +229,7 @@ header .header-right {
     font-size: 14px;
 }
 .blog .content {
+    overflow: hidden;
     clear: both;
     margin: 12px 0 12px 0;
     display: inline-block;
@@ -285,7 +293,7 @@ header .header-right {
     width: 16px;
     height: 16px;
     border: solid 1px #e4e0da;
-    bottom: 17px;
+    bottom: 19px;
 }
 
 .add-icon .fa-plus{
