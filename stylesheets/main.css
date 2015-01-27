@@ -1,6 +1,6 @@
 html,.container{
     height: 100%;
-    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-family: "Kootenay W04","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
 body {
     margin: 0;
@@ -137,9 +137,9 @@ header .header-right {
 .container .describe {
     margin: 0 10px 0 10px;
     padding: 0 12px 0 10px;
-    font-size: 13px;
+    font-size: 14px;
     color: #f2f6f9;
-    line-height: 18px;
+    line-height: 20px;
 }
 .link {
     color: #f2f6f9;
@@ -214,7 +214,7 @@ header .header-right {
     float: left;
     color: #c3beae;
     margin-left: 3px;
-    font-size: 14px;
+    font-size: 13px;
 }
 .blog .time {
     float: right;
@@ -260,7 +260,6 @@ header .header-right {
 }
 .follower {
     height: 60px;
-    margin-top: 3px;
 }
 .follower-list p {
     display: inline-block;
@@ -274,11 +273,10 @@ header .header-right {
     margin: -7px 14px 0 20px;
 }
 .follower-list label{
-    font-size: 13px;
+    font-size: 14px;
 }
 .job {
     display: inline-block;
-    margin: 6px 0 5px 0;
     color: #c3beae;
 }
 .add-icon {
@@ -287,15 +285,14 @@ header .header-right {
     width: 16px;
     height: 16px;
     border: solid 1px #e4e0da;
-    bottom: 19px;
+    bottom: 17px;
 }
 
 .add-icon .fa-plus{
-    color: #c6c1b1;
     left: 4px;
     position: relative;
     font-size: 13px;
-    top: 1px;
+    bottom: 1px;
     color: #9e9c96;
 }
 .pv_count .title {
@@ -308,9 +305,13 @@ header .header-right {
 .pv_count .number {
     margin-top: 5px;
     color: #45433c;
+    font-size: 14px;
 }
 .follower .name {
     color: #767671;
+}
+.blog .header {
+    font-size: 13px;
 }
 .blog .header .fa-refresh {
     float: left;
@@ -321,6 +322,9 @@ header .header-right {
     margin: 10px 0 10px 0;
     width: 100%;
     height: auto;
+}
+.bold,.pv_count .number, .blog .name {
+    font-weight: 600;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 640px) {
